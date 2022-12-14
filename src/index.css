@@ -1,0 +1,225 @@
+html{  
+    width: 100vw;  
+   }
+   
+   .navigation{
+    display: flex;
+    flex-direction: column;
+    box-shadow:  5px 5px 20px #bbbbbb;
+    background-color: #00BFC8;
+    width: 100vw;
+    height: 100px;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight:lighter;
+    justify-content: center; 
+    
+   }
+   
+   .nav-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+   }
+   
+   ul{
+    list-style-type: none;
+   }
+   
+   #root {
+    flex-grow: 1;
+    display:flow-root;
+    justify-content: center;
+    width: 100vw;
+   }
+   
+   .bm-burger-button {
+     position:absolute;  
+     width: 2rem;
+     height:20px;
+     left: 2vw;
+     top:2em;
+   }
+   
+   /* Color/shape of burger icon bars */
+   .bm-burger-bars {
+     background: #ffffff;
+     font-size: .2rem;
+   }
+   
+   /* Color/shape of burger icon bars on hover*/
+   .bm-burger-bars-hover {
+     background: #a90000;
+   }
+   
+   /* Position and sizing of clickable cross button */
+   .bm-cross-button {
+     height: 24px;
+     width: 24px;
+   }
+   
+   /* Color/shape of close button cross */
+   .bm-cross {
+     background: #bdc3c7;
+   }
+   
+   /*
+   Sidebar wrapper styles
+   Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+   */
+   .bm-menu-wrap {
+     position: fixed;
+     height: 50%;
+   }
+   
+   /* General sidebar styles */
+   .bm-menu {
+     background: #373a47;
+     padding: 2.5em 1.5em 0;
+     font-size: 1.15em;
+   }
+   
+   /* Morph shape necessary with bubble or elastic */
+   .bm-morph-shape {
+     fill: #373a47;
+   }
+   
+   /* Wrapper for item list */
+   .bm-item-list {
+     color: #b8b7ad;
+     padding: 0.8em;
+   }
+   
+   /* Individual item */
+   .bm-item {
+     display: inline-block;
+     color: #d1d1d1;
+     margin-bottom: 10px;
+     text-align: center;
+     text-decoration: none;
+     transition: color 0.2s;
+   }
+   
+   .bm-item:hover {
+     color: #ffffff;
+   }
+   
+   /* Styling of overlay */
+   .bm-overlay {
+     background: rgba(0, 0, 0, 0.3);
+   }
+   
+   .NavName{
+     color: #ffffff;
+   }
+   
+   li{
+    text-decoration: none;
+   }
+   
+   #icon{
+    align-items: center;
+    justify-content: center;
+   }
+   
+   #menuIcon{ 
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+   }
+   
+   .Paper{  
+    width:100vw;
+    
+    justify-content: center;
+   }
+   
+   .roomInfo{
+     margin-left: 10px;
+   }
+   
+   .MuiGrid-root {
+     justify-content: center;
+     text-align: left;
+   }
+   
+   .buttons{
+     margin-top: 25px;
+     margin-right: auto;
+     margin-left: 25px;
+     color: #00BFC8;
+     position: static; 
+   }
+   
+   .divider{
+     margin-top: 25px;
+     margin-bottom: 25px;
+   }
+   
+   .Guests{
+     text-align: left;
+     margin-left: 25px;
+     margin-bottom: 50px;
+     margin-top: 50px;
+     position: static; 
+   }
+   
+   .Extras{
+     text-align: left;
+     margin-left: 25px;
+     margin-bottom: 50px;
+     margin-top: 50px;
+     position: static; 
+   }
+   
+   .Cancel{
+     margin-left: 25px;
+     margin-bottom: 40px;
+     margin-top: 50px;
+   }
+   
+   #resortIcon{
+     width:100vw;
+     margin-right: auto;
+     margin-left: auto;
+   }
+   
+   a:link {
+     text-decoration: none;
+     margin: auto;
+   }
+   
+   a:link:hover {
+     text-decoration: underline;  
+   }
+   
+   .NavItems{
+     margin-top: 20px;
+     color:rgb(174, 174, 174);
+     font-size: 18px;
+     font-weight:lighter;
+   }
+   
+   .NavItems:hover{
+     color:#00BFC8;
+     text-decoration: underline;
+     text-decoration-color: #00BFC8; 
+   }
+   
+   .fa-solid {
+     margin-right: 5px;
+     width: auto; 
+     position: static; 
+   }
+   
+   #AN{
+     position:relative;
+     background-color: rgb(138, 138, 244);
+     font-size: 25px;
+     height: 60px;
+     margin-top: 20px;
+   }
+   
+   
+   
